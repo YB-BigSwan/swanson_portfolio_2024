@@ -14,7 +14,7 @@ const overpassMono = Overpass_Mono({
 
 const About = () => (
   <div className="w-full flex justify-center items-center">
-    <div className="w-4/5  flex flex-row justify-between items-center">
+    <div className="w-4/5  flex flex-row justify-between items-center mb-20 mt-10">
       <div className="w-2/5">
         <h2
           className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
@@ -23,7 +23,7 @@ const About = () => (
         </h2>
         <div className="relative">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
-          <div className="relative border-2 border-gray-50">
+          <div className="relative border-2 border-black">
             <div className="flex flex-col gap-2 justify-center items-center p-5 bg-indigo-600">
               <p className="text-lg font-light text-gray-50 p-5">
                 A frontend-focused <b className="font-bold">full-stack</b>
@@ -61,7 +61,7 @@ const About = () => (
         </h2>
         <div className="relative">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
-          <div className="relative border-2 border-gray-50">
+          <div className="relative border-2 border-black">
             <div className="flex flex-col gap-2 justify-center items-center p-5 bg-indigo-600">
               <p className="text-lg font-light text-gray-50 p-5">
                 <b className="font-bold">Full-stack or frontend developer</b> •

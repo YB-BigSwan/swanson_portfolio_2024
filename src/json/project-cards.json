@@ -1,0 +1,202 @@
+[
+  {
+    "cardTitle": "Satakuntalainen Osakunta Website",
+    "cardSubheading": "Role: Full-stack developer, Project Manager",
+    "cardDescription": "I am currently developing a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
+        "badgeName": "Next"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/373595/firebase.svg",
+        "badgeName": "Firebase"
+      },
+      {
+        "badgeIcon": "https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/6609e5396f72d5b2e92a84be_Directus-Logo.svg",
+        "badgeName": "Directus CMS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/353805/google-cloud.svg",
+        "badgeName": "GCP"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "Screenshot_2024-09-16_at_2.41.19_miw10a",
+    "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
+  },
+  {
+    "cardTitle": "Air Quality Monitor",
+    "cardSubheading": "Role: IoT Software Developer",
+    "cardDescription": "I am currently developing a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/303480/c-logo.svg",
+        "badgeName": "C++"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "Screenshot_2024-09-16_at_2.41.19_miw10a",
+    "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
+  },
+  {
+    "cardTitle": "Blazor Admin Pannel",
+    "cardSubheading": "Role: Full-stack developer",
+    "cardDescription": "I am currently developing a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/330066/blazor.svg",
+        "badgeName": "Blazor"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452184/csharp.svg",
+        "badgeName": "C#"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/376369/dotnet.svg",
+        "badgeName": ".NET"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/473725/microsoftsqlserver.svg",
+        "badgeName": "SQL Server"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "Screenshot_2024-09-16_at_2.41.19_miw10a",
+    "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
+  },
+  {
+    "cardTitle": "GreenFuture",
+    "cardSubheading": "Role: Full-stack developer",
+    "cardDescription": "During the 48-hour Solve the SDGs hackathon at Aalto University, our team developed a platform targeting SDG 4.7 to engage university students in sustainable development. I served as frontend-focused full-stack developer, set up the CI/CD pipeline for seamless teamwork, and acted as a pseudo-Scrum master.",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
+        "badgeName": "React"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/330398/express.svg",
+        "badgeName": "Express.js"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452075/node-js.svg",
+        "badgeName": "Node.js"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+        "badgeName": "PostgreSQL"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "gf-thumbnail_qaas34",
+    "imageAltText": "a snapshot of the green future project"
+  },
+  {
+    "cardTitle": "Map Tiler project",
+    "cardSubheading": "Role: Frontend developer",
+    "cardDescription": "During the 48-hour Solve the SDGs hackathon at Aalto University, our team developed a platform targeting SDG 4.7 to engage university students in sustainable development. I served as frontend-focused full-stack developer, set up the CI/CD pipeline for seamless teamwork, and acted as a pseudo-Scrum master.",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
+        "badgeName": "React"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/330825/leaflet.svg",
+        "badgeName": "Leaflet"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "map1_ixr32k",
+    "imageAltText": "a snapshot of the green future project"
+  },
+  {
+    "cardTitle": "Opiskelijoiden Mielipide Gallup",
+    "cardSubheading": "Role: Frontend developer",
+    "cardDescription": "BRiDG3 24Hack Category Winner: In just 24 hours our team launched a website that allowed the students at Tampere University to find, add, and rate their courses based on content, quality, and workload. Students could then search and filter to find courses that met their expectations (easiest, highest quality, etc).",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
+        "badgeName": "React"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/373595/firebase.svg",
+        "badgeName": "Firebase"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "omg2_yxyhf7",
+    "imageAltText": "a snapshot of the OMG project"
+  },
+  {
+    "cardTitle": "Sibelius Project",
+    "cardSubheading": "Role: Full-stack developer",
+    "cardDescription": "For a project work course, my team and I created an administrative tool for Sibelius Academy, where I contributed to frontend development, backend development, and unit testing.",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
+        "badgeName": "React"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/330398/express.svg",
+        "badgeName": "Express.js"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452075/node-js.svg",
+        "badgeName": "Node.js"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/354037/mariadb-icon.svg",
+        "badgeName": "MariaDB"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "siba2_lkfr8g",
+    "imageAltText": "a snapshot of the Sibelius Academy project"
+  },
+  {
+    "cardTitle": "YetiType",
+    "cardSubheading": "Role: Full-stack developer",
+    "cardDescription": "YetiType is a typing racing game inspired by MonkeyType, with a fun frosty twist. This was my final project for a backend development course. I decided to develop a type racing game that uses code snippets, aiming to improve my typing speed while incorporating special characters.",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
+        "badgeName": "Next"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/376350/spring.svg",
+        "badgeName": "Java (Spring)"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/373845/mongo.svg",
+        "badgeName": "MongoDB"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "imageSource": "yeti1_hgmnlu",
+    "imageAltText": "a snapshot of the YetiType project"
+  }
+]

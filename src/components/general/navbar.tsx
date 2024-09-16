@@ -9,6 +9,7 @@ import {
 import Logo from "@/assets/logo.svg";
 import NeoButton from "../neo-ui/neo-button";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const NavBar = () => {
   const [visible, setVisible] = useState(true);
@@ -34,21 +35,23 @@ const NavBar = () => {
 
   return (
     <div
-      className={`w-full flex justify-center items-center p-3 bg-blue-100 border-t-2 border-b-2 border-black fixed top-0 transition-transform duration-300 ${
+      className={`w-full flex justify-center items-center p-3 bg-blue-100 border-t-2 border-b-2 border-black fixed top-0 z-50 transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <div className="w-4/5 flex justify-between items-center">
-        <Logo className="flex-shrink-0" />
+        <Link href="#">
+          <Logo className="flex-shrink-0" />
+        </Link>
         <NavigationMenu>
           <NavigationMenuList className="flex flex-row gap-2">
             <NavigationMenuItem>
-              <NavigationMenuLink href="">
+              <NavigationMenuLink href="#about">
                 <NeoButton buttonText="About" tooltipText="Go to About" />
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuLink href="">
+              <NavigationMenuLink href="#projects">
                 <NeoButton
                   buttonText="Projects"
                   tooltipText="See my projects"
