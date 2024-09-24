@@ -18,6 +18,7 @@ type cardTypes = {
   buttonText: string;
   imageSource: string;
   imageAltText: string;
+  buttonHref: string;
 };
 
 const NeoCard = ({
@@ -26,6 +27,7 @@ const NeoCard = ({
   cardDescription,
   badges,
   buttonText,
+  buttonHref,
   imageSource,
   imageAltText,
 }: cardTypes) => (
@@ -60,13 +62,13 @@ const NeoCard = ({
                 ))}
               </div>
             </div>
-            <NeoButtonBlue buttonText={buttonText} />
+            <NeoButtonBlue buttonText={buttonText} buttonHref={buttonHref} />
           </div>
           {/* Image */}
           <CldImage
             src={imageSource}
             width="500"
-            height="350"
+            height="325"
             alt={imageAltText}
             crop={{
               type: "auto",

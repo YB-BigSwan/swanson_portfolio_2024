@@ -31,6 +31,7 @@ const ProjectsCarousel = () => (
                       badgeName: badge.badgeName,
                     }))}
                     buttonText={item.buttonText}
+                    buttonHref={item.buttonHref}
                     imageSource={item.imageSource}
                     imageAltText={item.imageAltText}
                   />

@@ -19,7 +19,7 @@ const NeoButton = ({ buttonImage, buttonText, tooltipText }: buttonTypes) => (
         <div className="absolute inset-0 translate-x-1 translate-y-1 bg-black rounded-md"></div>
         <div className="relative border-2 border-gray-50 rounded-md">
           <TooltipTrigger asChild>
-            <Button className="flex flex-row gap-2 justify-center items-center p-5 ">
+            <Button className="flex flex-row gap-2 justify-center items-center p-5 rounded-sm hover:bg-blue-700">
               {buttonImage}
               <p className="text-lg font-light">{buttonText}</p>
             </Button>

@@ -2,7 +2,7 @@
   {
     "cardTitle": "Satakuntalainen Osakunta Website",
     "cardSubheading": "Role: Full-stack developer, Project Manager",
-    "cardDescription": "I am currently developing a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
@@ -26,27 +26,45 @@
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "Screenshot_2024-09-16_at_2.41.19_miw10a",
+    "buttonHref": "https://github.com/osakunta/website",
+    "imageSource": "SatO_zeckh5",
     "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
   },
   {
     "cardTitle": "Air Quality Monitor",
     "cardSubheading": "Role: IoT Software Developer",
-    "cardDescription": "I am currently developing a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "cardDescription": "I developed an air quality monitoring system for my apartment using an ESP-32 and a few sensors. Later, I expanded it for an IoT course by integrating a second ESP-32 and an IR LED to send data to a React frontend for remote monitoring and AC control.",
     "badges": [
+      {
+        "badgeIcon": "https://cdn.worldvectorlogo.com/logos/espressif-systems.svg",
+        "badgeName": "ESP-32"
+      },
       {
         "badgeIcon": "https://www.svgrepo.com/show/303480/c-logo.svg",
         "badgeName": "C++"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
+        "badgeName": "React"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TS"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/353805/google-cloud.svg",
+        "badgeName": "GCP"
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "Screenshot_2024-09-16_at_2.41.19_miw10a",
+    "buttonHref": "https://github.com/YB-BigSwan/air_quality",
+    "imageSource": "Air_Quality_Control_sjyhjc",
     "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
   },
   {
     "cardTitle": "Blazor Admin Pannel",
     "cardSubheading": "Role: Full-stack developer",
-    "cardDescription": "I am currently developing a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "cardDescription": "I developed an admin panel and backend that enables users to upload categories and manage products within those categories. This solution is fully prepared to integrate with a storefront frontend.",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/330066/blazor.svg",
@@ -66,7 +84,8 @@
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "Screenshot_2024-09-16_at_2.41.19_miw10a",
+    "buttonHref": "https://github.com/YB-BigSwan/BlazorShop",
+    "imageSource": "Blazor_Admin_Panel_v8isdw",
     "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
   },
   {
@@ -96,13 +115,14 @@
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "gf-thumbnail_qaas34",
+    "buttonHref": "https://github.com/YB-BigSwan/GreenFuture",
+    "imageSource": "GreenFuture_qio8wl",
     "imageAltText": "a snapshot of the green future project"
   },
   {
     "cardTitle": "Map Tiler project",
     "cardSubheading": "Role: Frontend developer",
-    "cardDescription": "During the 48-hour Solve the SDGs hackathon at Aalto University, our team developed a platform targeting SDG 4.7 to engage university students in sustainable development. I served as frontend-focused full-stack developer, set up the CI/CD pipeline for seamless teamwork, and acted as a pseudo-Scrum master.",
+    "cardDescription": "This demo was developed as a take-home task, enabling users to view and switch between different map tile layers. It also includes functionalities for panning and zooming.",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
@@ -118,7 +138,8 @@
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "map1_ixr32k",
+    "buttonHref": "https://github.com/YB-BigSwan/lensor-map",
+    "imageSource": "Map_Task_hpjwpp",
     "imageAltText": "a snapshot of the green future project"
   },
   {
@@ -139,14 +160,15 @@
         "badgeName": "Firebase"
       }
     ],
-    "buttonText": "Visit GitHub",
-    "imageSource": "omg2_yxyhf7",
+    "buttonText": "Visit GitLab",
+    "buttonHref": "https://gitlab.com/a-zurcher/omg-fe",
+    "imageSource": "OMG_ywghkk",
     "imageAltText": "a snapshot of the OMG project"
   },
   {
     "cardTitle": "Sibelius Project",
     "cardSubheading": "Role: Full-stack developer",
-    "cardDescription": "For a project work course, my team and I created an administrative tool for Sibelius Academy, where I contributed to frontend development, backend development, and unit testing.",
+    "cardDescription": "For a project work course, my team and I created an administrative tool for the Sibelius Academy, where I contributed to frontend development, backend development, and unit testing.",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/452092/react.svg",
@@ -170,7 +192,8 @@
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "siba2_lkfr8g",
+    "buttonHref": "https://github.com/haagahelia/siba-fe",
+    "imageSource": "Siba_wo0cji",
     "imageAltText": "a snapshot of the Sibelius Academy project"
   },
   {
@@ -196,7 +219,8 @@
       }
     ],
     "buttonText": "Visit GitHub",
-    "imageSource": "yeti1_hgmnlu",
+    "buttonHref": "https://github.com/YB-BigSwan/YetiType",
+    "imageSource": "YetiType_suk7v4",
     "imageAltText": "a snapshot of the YetiType project"
   }
 ]
