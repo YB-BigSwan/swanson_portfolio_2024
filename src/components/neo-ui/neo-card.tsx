@@ -45,7 +45,7 @@ const NeoCard = ({
               <p className="font-semibold text-lg">{cardSubheading}</p>
               <p className="font-normal max-w-lg text-sm">{cardDescription}</p>
               {/* Badge */}
-              <div className="flex flex-row gap-2 mb-8">
+              <div className="flex flex-row flex-wrap gap-2 mb-8">
                 {badges.map((badge, index) => (
                   <Badge
                     key={index}
@@ -53,7 +53,7 @@ const NeoCard = ({
                   >
                     <Image
                       src={badge.badgeIcon}
-                      alt={badge.badgeName}
+                      alt=""
                       width={20}
                       height={20}
                     />

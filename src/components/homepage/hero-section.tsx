@@ -22,11 +22,11 @@ const HeroSection = () => (
           Stephen Swanson
         </h1>
 
-        <p
+        <h2
           className={`${overpassMono.className} text-indigo-950 text-2xl font-normal`}
         >
           Frontend focused full-stack developer
-        </p>
+        </h2>
         <div className="flex flex-row gap-2">
           <NeoButton
             buttonImage={<LinkedInSVG />}

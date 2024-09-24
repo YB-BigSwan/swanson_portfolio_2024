@@ -35,11 +35,11 @@ const Skills = () => {
     <div className="w-full flex justify-center items-center">
       <div className="w-4/5  flex flex-col justify-between items-start mb-10 gap-20">
         <div>
-          <h2
+          <h3
             className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
           >
             Used Languages
-          </h2>
+          </h3>
           <div className="flex flex-wrap gap-4">
             {languages.map((language, index) => {
               const projects = getProjectsForLanguage(language.name);
@@ -71,11 +71,11 @@ const Skills = () => {
         </div>
 
         <div className="">
-          <h2
+          <h3
             className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
           >
             Leveraged Technologies
-          </h2>
+          </h3>
           <div className="flex flex-wrap gap-4">
             {technologies.map((tech, index) => {
               const projects = getProjectsForLanguage(tech.name);

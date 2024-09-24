@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <main>
       <NavBar />
-      <HeroSection />
+      <div id="#top">
+        <HeroSection />
+      </div>
       <div id="about">
         <About />
       </div>

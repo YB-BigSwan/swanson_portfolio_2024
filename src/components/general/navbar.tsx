@@ -40,7 +40,7 @@ const NavBar = () => {
       }`}
     >
       <div className="w-4/5 flex justify-between items-center">
-        <Link href="#">
+        <Link href="#top">
           <Logo className="flex-shrink-0" />
         </Link>
         <NavigationMenu>

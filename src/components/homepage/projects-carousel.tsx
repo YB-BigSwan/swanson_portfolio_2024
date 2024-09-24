@@ -13,9 +13,9 @@ const overpassMono = Overpass_Mono({
 const ProjectsCarousel = () => (
   <div className="w-full flex justify-center items-center">
     <div className="w-4/5  flex flex-col justify-center items-start mb-20">
-      <h2 className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}>
+      <h3 className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}>
         Projects
-      </h2>
+      </h3>
       <Carousel className="w-full" opts={{ loop: true, dragThreshold: 10 }}>
         <div className="flex flex-col">
           <CarouselContent>

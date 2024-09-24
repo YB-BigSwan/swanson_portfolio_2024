@@ -16,11 +16,11 @@ const About = () => (
   <div className="w-full flex justify-center items-center">
     <div className="w-4/5  flex flex-row justify-between items-center mb-20 mt-10">
       <div className="w-2/5">
-        <h2
+        <h3
           className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
         >
           About
-        </h2>
+        </h3>
         <div className="relative">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
           <div className="relative border-2 border-black">
@@ -54,11 +54,11 @@ const About = () => (
       </div>
 
       <div className="w-2/5">
-        <h2
+        <h3
           className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
         >
           Experience
-        </h2>
+        </h3>
         <div className="relative">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
           <div className="relative border-2 border-black">
