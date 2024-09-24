@@ -59,7 +59,7 @@ const NavBar = () => {
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuLink href="">
+              <NavigationMenuLink href="#skills">
                 <NeoButton
                   buttonText="Skills"
                   tooltipText="Learn about my skills"
@@ -67,7 +67,7 @@ const NavBar = () => {
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuLink href="">
+              <NavigationMenuLink href="#contact">
                 <NeoButton buttonText="Contact" tooltipText="Get in touch" />
               </NavigationMenuLink>
             </NavigationMenuItem>

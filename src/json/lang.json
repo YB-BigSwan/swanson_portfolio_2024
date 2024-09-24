@@ -1,0 +1,32 @@
+[
+  { "icon": "https://www.svgrepo.com/show/373669/html.svg", "name": "HTML" },
+  { "icon": "https://www.svgrepo.com/show/452185/css-3.svg", "name": "CSS" },
+  {
+    "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+    "name": "JavaScript"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/303600/typescript-logo.svg",
+    "name": "TypeScript"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/452184/csharp.svg",
+    "name": "C#"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/303480/c-logo.svg",
+    "name": "C++"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/452234/java.svg",
+    "name": "Java"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/452091/python.svg",
+    "name": "Python"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/331760/sql-database-generic.svg",
+    "name": "SQL"
+  }
+]

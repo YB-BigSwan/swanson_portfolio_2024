@@ -1,0 +1,78 @@
+[
+  {
+    "icon": "https://www.svgrepo.com/show/473768/react.svg",
+    "name": "React"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/378440/nextjs-fill.svg",
+    "name": "Next"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/376369/dotnet.svg",
+    "name": ".NET"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/330066/blazor.svg",
+    "name": "Blazor"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/473696/leaflet.svg",
+    "name": "Leaflet"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/330398/express.svg",
+    "name": "Express"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/378439/node-fill.svg",
+    "name": "Node"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/376350/spring.svg",
+    "name": "Spring (Maven)"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/354037/mariadb-icon.svg",
+    "name": "MariaDB"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/306420/microsoftsqlserver.svg",
+    "name": "SQL Server"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+    "name": "PostgreSQL"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/373845/mongo.svg",
+    "name": "MongoDB"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/373595/firebase.svg",
+    "name": "Firebase"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/512317/github-142.svg",
+    "name": "GitHub CI/CD"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/448226/gitlab.svg",
+    "name": "GitLab CI/CD"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/448221/docker.svg",
+    "name": "Docker"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/353805/google-cloud.svg",
+    "name": "Google Cloud Platform"
+  },
+  {
+    "icon": "https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/6609e5396f72d5b2e92a84be_Directus-Logo.svg",
+    "name": "Directus"
+  },
+  {
+    "icon": "https://www.svgrepo.com/show/353566/cloudinary.svg",
+    "name": "Cloudinary"
+  }
+]

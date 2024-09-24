@@ -10,7 +10,7 @@
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeName": "TypeScript"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/373595/firebase.svg",
@@ -18,11 +18,11 @@
       },
       {
         "badgeIcon": "https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/6609e5396f72d5b2e92a84be_Directus-Logo.svg",
-        "badgeName": "Directus CMS"
+        "badgeName": "Directus"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/353805/google-cloud.svg",
-        "badgeName": "GCP"
+        "badgeName": "Google Cloud Platform"
       }
     ],
     "buttonText": "Visit GitHub",
@@ -49,11 +49,11 @@
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeName": "TypeScript"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/353805/google-cloud.svg",
-        "badgeName": "GCP"
+        "badgeName": "Google Cloud Platform"
       }
     ],
     "buttonText": "Visit GitHub",
@@ -99,15 +99,15 @@
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeName": "TypeScript"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/330398/express.svg",
-        "badgeName": "Express.js"
+        "badgeName": "Express"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/452075/node-js.svg",
-        "badgeName": "Node.js"
+        "badgeName": "Node"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/354200/postgresql.svg",
@@ -130,7 +130,7 @@
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeName": "TypeScript"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/330825/leaflet.svg",
@@ -152,8 +152,8 @@
         "badgeName": "React"
       },
       {
-        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeIcon": "https://www.svgrepo.com/show/353925/javascript.svg",
+        "badgeName": "JavaScript"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/373595/firebase.svg",
@@ -176,15 +176,15 @@
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeName": "TypeScript"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/330398/express.svg",
-        "badgeName": "Express.js"
+        "badgeName": "Express"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/452075/node-js.svg",
-        "badgeName": "Node.js"
+        "badgeName": "Node"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/354037/mariadb-icon.svg",
@@ -207,11 +207,15 @@
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
-        "badgeName": "TS"
+        "badgeName": "TypeScript"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452234/java.svg",
+        "badgeName": "Java"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/376350/spring.svg",
-        "badgeName": "Java (Spring)"
+        "badgeName": "Spring (Maven)"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/373845/mongo.svg",
