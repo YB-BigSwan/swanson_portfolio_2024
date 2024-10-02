@@ -62,8 +62,8 @@ const About = () => (
                 [your company name here]
                 <br />
                 <br />
-                <b className="font-bold">Verkkovastaava</b> (present) •
-                Satakuntalainen Osakunta
+                <b className="font-bold">Verkkovastaava (Web admin)</b>{" "}
+                (present) • Satakuntalainen Osakunta
                 <br />
                 <br />
                 <b className="font-bold">Solve the SDGs hackathon</b> • Aalto

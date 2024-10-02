@@ -1,8 +1,8 @@
 [
   {
     "cardTitle": "Satakuntalainen Osakunta Website",
-    "cardSubheading": "Role: Full-stack developer, Project Manager",
-    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "cardSubheading": "Role: Full-stack Developer, Project Manager",
+    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. We are using a combination of Next.js, Firebase, Google Cloud API, and DirectusCMS",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
@@ -33,11 +33,11 @@
   {
     "cardTitle": "Air Quality Monitor",
     "cardSubheading": "Role: IoT Software Developer",
-    "cardDescription": "I developed an air quality monitoring system for my apartment using an ESP-32 and a few sensors. Later, I expanded it for an IoT course by integrating a second ESP-32 and an IR LED to send data to a React frontend for remote monitoring and AC control.",
+    "cardDescription": "I developed an air quality monitoring system for my apartment using an ESP32 and a few sensors. Later, I expanded it for an IoT course by integrating a second ESP32 and an IR LED to send data to a React frontend for remote monitoring and AC control.",
     "badges": [
       {
         "badgeIcon": "https://cdn.worldvectorlogo.com/logos/espressif-systems.svg",
-        "badgeName": "ESP-32"
+        "badgeName": "ESP32"
       },
       {
         "badgeIcon": "https://www.svgrepo.com/show/303480/c-logo.svg",
@@ -70,8 +70,8 @@
     "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
   },
   {
-    "cardTitle": "Blazor Admin Pannel",
-    "cardSubheading": "Role: Full-stack developer",
+    "cardTitle": "Blazor Inventory Management System",
+    "cardSubheading": "Role: Full-stack Developer",
     "cardDescription": "I developed an admin panel and backend that enables users to upload categories and manage products within those categories. This solution is fully prepared to integrate with a storefront frontend.",
     "badges": [
       {
@@ -98,7 +98,7 @@
   },
   {
     "cardTitle": "GreenFuture",
-    "cardSubheading": "Role: Full-stack developer",
+    "cardSubheading": "Role: Full-stack Developer",
     "cardDescription": "During the 48-hour Solve the SDGs hackathon at Aalto University, our team developed a platform targeting SDG 4.7 to engage university students in sustainable development. I served as frontend-focused full-stack developer, set up the CI/CD pipeline for seamless teamwork, and acted as a pseudo-Scrum master.",
     "badges": [
       {
@@ -129,7 +129,7 @@
   },
   {
     "cardTitle": "Map Tiler project",
-    "cardSubheading": "Role: Frontend developer",
+    "cardSubheading": "Role: Frontend Developer",
     "cardDescription": "This demo was developed as a take-home task, enabling users to view and switch between different map tile layers. It also includes functionalities for panning and zooming.",
     "badges": [
       {
@@ -152,7 +152,7 @@
   },
   {
     "cardTitle": "Opiskelijoiden Mielipide Gallup",
-    "cardSubheading": "Role: Frontend developer",
+    "cardSubheading": "Role: Frontend Developer",
     "cardDescription": "BRiDG3 24Hack Category Winner: In just 24 hours our team launched a website that allowed the students at Tampere University to find, add, and rate their courses based on content, quality, and workload. Students could then search and filter to find courses that met their expectations (easiest, highest quality, etc).",
     "badges": [
       {
@@ -175,7 +175,7 @@
   },
   {
     "cardTitle": "Sibelius Project",
-    "cardSubheading": "Role: Full-stack developer",
+    "cardSubheading": "Role: Full-stack Developer",
     "cardDescription": "For a project work course, my team and I created an administrative tool for the Sibelius Academy, where I contributed to frontend development, backend development, and unit testing.",
     "badges": [
       {
@@ -206,7 +206,7 @@
   },
   {
     "cardTitle": "YetiType",
-    "cardSubheading": "Role: Full-stack developer",
+    "cardSubheading": "Role: Full-stack Developer",
     "cardDescription": "YetiType is a typing racing game inspired by MonkeyType, with a fun frosty twist. This was my final project for a backend development course. I decided to develop a type racing game that uses code snippets, aiming to improve my typing speed while incorporating special characters.",
     "badges": [
       {
