@@ -22,7 +22,7 @@ const NeoButtonBlue = ({
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Button className="flex flex-row gap-2 justify-center items-center p-5 bg-blue-300 rounded-sm">
+        <Button className="flex flex-row gap-2 justify-center items-center p-5 bg-blue-300 rounded-sm hover:bg-blue-300">
           {buttonImage}
           <p className="text-lg font-light text-black">{buttonText}</p>
         </Button>
