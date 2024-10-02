@@ -3,7 +3,7 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: "dtt9tzpip",
   },
-  webpack(config, { isServer }) {
+  webpack(config, { isServer, dev }) {
     config.module.rules.push({
       test: /\.svg$/,
       use: ["@svgr/webpack"],
