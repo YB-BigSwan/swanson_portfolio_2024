@@ -50,11 +50,11 @@ const NavBar = () => {
         {/* Logo */}
         {!isDesktop ? (
           <Link href="#top">
-            <LogoSm />
+            <LogoSm alt="A logo of a swan" />
           </Link>
         ) : (
           <Link href="#top">
-            <Logo />
+            <Logo alt="A logo of a swan" />
           </Link>
         )}
 

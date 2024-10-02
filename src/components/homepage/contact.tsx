@@ -125,6 +125,7 @@ const ContactForm = () => {
                     <Form className="w-4/5">
                       {/* Honeypot Fields */}
                       <div style={{ display: "none" }}>
+                        <label htmlFor="honeypot1">Do not fill</label>
                         <Input
                           id="honeypot1"
                           name="honeypot1"
@@ -132,6 +133,7 @@ const ContactForm = () => {
                           onChange={handleChange}
                           onBlur={handleBlur}
                         />
+                        <label htmlFor="honeypot2">Do not fill</label>
                         <Input
                           id="honeypot2"
                           name="honeypot2"
@@ -151,6 +153,7 @@ const ContactForm = () => {
                         <Input
                           id="name"
                           name="name"
+                          placeholder="Name..."
                           value={values.name}
                           onChange={handleChange}
                           onBlur={handleBlur}
@@ -173,6 +176,7 @@ const ContactForm = () => {
                         <Input
                           id="email"
                           name="email"
+                          placeholder="example@gmail.com"
                           value={values.email}
                           onChange={handleChange}
                           onBlur={handleBlur}
@@ -195,6 +199,7 @@ const ContactForm = () => {
                         <Textarea
                           id="message"
                           name="message"
+                          placeholder="Hi Stephen! I'm so-and-so from..."
                           value={values.message}
                           onChange={handleChange}
                           onBlur={handleBlur}
