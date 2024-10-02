@@ -100,6 +100,7 @@ const ContactForm = () => {
                               "There was a problem submitting your report.",
                             variant: "destructive",
                           });
+                          resetForm();
                         }
                       })
                       .catch((error) => {
@@ -109,8 +110,10 @@ const ContactForm = () => {
                             "An error occurred. Please try again later.",
                           variant: "destructive",
                         });
+                        resetForm();
                       })
                       .finally(() => {
+                        resetForm();
                         setSubmitting(false);
                         setButtonText("Submit");
                         setButtonDisabled(false);

@@ -81,9 +81,10 @@ const HeroSection = () => (
           src={Portrait}
           alt="A pixel art portrait of Stephen"
           quality={100}
-          width={625} // Corresponding width for responsive sizing
-          height={525} // Corresponding height for responsive sizing
+          width={625}
+          height={525}
           className="mt-24"
+          priority
         />
       </div>
     </div>
