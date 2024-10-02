@@ -34,7 +34,6 @@ const ContactForm = () => {
   const { toast } = useToast(); // Hook for managing toast notifications
   const [buttonText, setButtonText] = useState("Submit");
   const [buttonDisabled, setButtonDisabled] = useState(false);
-  const corsProxy: string = "https://cors-anywhere.herokuapp.com/";
 
   return (
     <div className="w-full flex flex-col justify-center items-center mt-10">
@@ -82,13 +81,10 @@ const ContactForm = () => {
                     formData.append("entry.743332734", values.email);
                     formData.append("entry.27837444", values.message);
 
-                    fetch(
-                      `${corsProxy + process.env.NEXT_PUBLIC_CONTACT_FORM_URL}`,
-                      {
-                        method: "POST",
-                        body: formData,
-                      }
-                    )
+                    fetch(`${process.env.NEXT_PUBLIC_CONTACT_FORM_URL}`, {
+                      method: "POST",
+                      body: formData,
+                    })
                       .then((response) => {
                         if (response.ok) {
                           toast({
@@ -157,7 +153,7 @@ const ContactForm = () => {
                           value={values.name}
                           onChange={handleChange}
                           onBlur={handleBlur}
-                          className="w-full mt-2 p-2 rounded border border-gray-300"
+                          className="w-full mt-2 p-2 rounded border border-gray-300 text-black"
                         />
                         {touched.name && errors.name && (
                           <div className="text-red-600 text-sm">
@@ -180,7 +176,7 @@ const ContactForm = () => {
                           value={values.email}
                           onChange={handleChange}
                           onBlur={handleBlur}
-                          className="w-full mt-2 p-2 rounded border border-gray-300"
+                          className="w-full mt-2 p-2 rounded border border-gray-300 text-black"
                         />
                         {touched.email && errors.email && (
                           <div className="text-red-600 text-sm">
@@ -203,7 +199,7 @@ const ContactForm = () => {
                           value={values.message}
                           onChange={handleChange}
                           onBlur={handleBlur}
-                          className="w-full mt-2 p-2 rounded border border-gray-300"
+                          className="w-full mt-2 p-2 rounded border border-gray-300 text-black"
                           rows={4}
                         />
                         {touched.message && errors.message && (
