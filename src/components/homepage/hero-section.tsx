@@ -1,10 +1,11 @@
+"use client";
+
 import LinkedInSVG from "@/assets/linkedin.svg";
 import GitHubSVG from "@/assets/github.svg";
 import CVSVG from "@/assets/cv.svg";
-import Portrait from "@/assets/pixel-portrait.webp";
-import Image from "next/image";
 import NeoButton from "../neo-ui/neo-button";
 import { Overpass_Mono } from "next/font/google";
+import { CldImage } from "next-cloudinary";
 
 const overpassMono = Overpass_Mono({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ const overpassMono = Overpass_Mono({
 });
 
 const HeroSection = () => (
-  <div className="w-full h-screen flex justify-center items-start md:items-center bg-[url('../assets/hero-background.webp')] bg-cover bg-no-repeat">
+  <div className="w-full h-screen flex justify-center items-start md:items-center bg-[url('https://res.cloudinary.com/dtt9tzpip/image/upload/v1727881539/hero-background_cmkexb.webp')] bg-cover bg-no-repeat">
     {/* Main Container */}
     <div className="w-full flex flex-col-reverse lg:flex-row justify-between items-center px-4 lg:px-0 lg:w-4/5">
       {/* Text Container */}
@@ -54,8 +55,8 @@ const HeroSection = () => (
 
       {/* Keep the Image Container Unchanged */}
       <div className="sm:flex sm:justify-center sm:items-center sm:w-full sm:h-full lg:w-1/2 lg:h-1/2 flex-shrink-0 mb-8 md:mb-0">
-        <Image
-          src={Portrait}
+        <CldImage
+          src="pixel-portrait_vpbmli"
           alt="A pixel art portrait of Stephen"
           quality={100}
           width={625} // Corresponding width for responsive sizing
