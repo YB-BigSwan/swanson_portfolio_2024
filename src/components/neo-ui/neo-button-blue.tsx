@@ -15,14 +15,14 @@ const NeoButtonBlue = ({
 }: buttonTypes) => (
   <div className="relative">
     <div className="absolute inset-0 translate-x-1 translate-y-1 bg-black rounded-md"></div>
-    <div className="relative border-2 border-gray-50 rounded-md">
+    <div className="relative border-2 border-gray-50 rounded-md hover:translate-x-1 hover:translate-y-1 focus:translate-x-1 focus:translate-y-1 transition 300 ease">
       <Link
         href={buttonHref}
         passHref
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Button className="flex flex-row gap-2 justify-center items-center p-5 bg-blue-300 rounded-sm hover:bg-indigo-100">
+        <Button className="flex flex-row gap-2 justify-center items-center p-5 bg-blue-300 rounded-sm">
           {buttonImage}
           <p className="text-lg font-light text-black">{buttonText}</p>
         </Button>

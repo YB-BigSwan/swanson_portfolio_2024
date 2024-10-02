@@ -13,18 +13,18 @@ const overpassMono = Overpass_Mono({
 });
 
 const About = () => (
-  <div className="w-full flex justify-center items-center">
-    <div className="w-4/5  flex flex-row justify-between items-center mb-20 mt-10">
-      <div className="w-2/5">
+  <div className="w-full flex justify-center items-center mt-0 lg:mt-10">
+    <div className="w-11/12 md:w-4/5  flex flex-col lg:flex-row justify-between items-center mb-20">
+      <div className="w-full lg:w-2/5">
         <h3
           className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
         >
           About
         </h3>
-        <div className="relative">
+        <div className="relative mb-10 lg:mb-0">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
           <div className="relative border-2 border-black">
-            <div className="flex flex-col gap-2 justify-center items-center p-5 bg-indigo-600">
+            <div className="flex flex-col gap-2 justify-center items-center p-2 md:p-5  bg-indigo-600">
               <p className="text-lg font-light text-gray-50 p-5">
                 A frontend-focused <b className="font-bold">full-stack</b>{" "}
                 developer from Utah, United States, now living permanently in
@@ -32,10 +32,10 @@ const About = () => (
                 <br />
                 <br />
                 With a major in{" "}
-                <b className="font-bold">software development</b> and a minor in
+                <b className="font-bold">software development</b> and a minor in{" "}
                 <b className="font-bold">UX design</b>, I&apos;m passionate
-                about building <b className="font-bold">robust</b>,
-                <b className="font-bold">functional</b>, and
+                about building <b className="font-bold">robust</b>,{" "}
+                <b className="font-bold">functional</b>, and{" "}
                 <b className="font-bold">accessible</b> websites and web
                 services.
                 <br />
@@ -53,7 +53,7 @@ const About = () => (
         </div>
       </div>
 
-      <div className="w-2/5">
+      <div className="w-full lg:w-2/5">
         <h3
           className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
         >
@@ -62,7 +62,7 @@ const About = () => (
         <div className="relative">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
           <div className="relative border-2 border-black">
-            <div className="flex flex-col gap-2 justify-center items-center p-5 bg-indigo-600">
+            <div className="flex flex-col gap-2 justify-center items-start p-2 md:p-5 bg-indigo-600">
               <p className="text-lg font-light text-gray-50 p-5">
                 <b className="font-bold">Full-stack or frontend developer</b> •
                 [your company name here]

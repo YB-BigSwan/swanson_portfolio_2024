@@ -14,12 +14,12 @@ const overpassMono = Overpass_Mono({
 
 const customTooltips: Record<string, string> = {
   HTML: "Used as JSX on most sites",
-  CSS: "CSS and TailwindCSS used on most frontends",
+  CSS: "CSS and TailwindCSS used on all frontends",
   Python: "Mainly used for data analysis",
   "GitHub CI/CD":
     "Used for automating linting, testing, build, and deployment on hosted projects",
   "GitLab CI/CD": "Opiskelijoiden Mielipide Gallup",
-  Docker: "Mostly used for running local ccontainerized databases",
+  Docker: "Mostly used for running local containerized databases",
   Cloudinary: "swansondev.me",
 };
 
@@ -33,7 +33,7 @@ const getProjectsForLanguage = (languageName: string) => {
 const Skills = () => {
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-4/5  flex flex-col justify-between items-start mb-10 gap-20">
+      <div className="w-11/12 md:w-4/5  flex flex-col justify-between items-start mb-10 gap-20">
         <div>
           <h3
             className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}

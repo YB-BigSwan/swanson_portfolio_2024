@@ -31,17 +31,19 @@ const NeoCard = ({
   imageSource,
   imageAltText,
 }: cardTypes) => (
-  <div className="relative">
+  <div className="relative flex flex-col justify-center items-start m-2">
     {/* Background shadow */}
-    <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
+    <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black rounded-lg"></div>
     {/* Actual card */}
-    <div className="relative border-2 border-black">
+    <div className="relative border-2 border-black rounded-lg overflow-hidden flex-grow">
       <Card className="bg-indigo-600">
-        <CardContent className="flex flex-row p-0">
+        <CardContent className="flex flex-col md:flex-row p-0">
           {/* Text area */}
-          <div className="p-7 text-gray-50 flex flex-col justify-between items-start">
-            <div className="flex flex-col gap-5">
-              <h3 className="font-semibold text-4xl">{cardTitle}</h3>
+          <div className="p-7 text-gray-50 flex flex-col justify-between items-start md:w-2/3">
+            <div className="flex flex-col gap-4">
+              <h3 className="font-semibold text-3xl md:text-4xl">
+                {cardTitle}
+              </h3>
               <p className="font-semibold text-lg">{cardSubheading}</p>
               <p className="font-normal max-w-lg text-sm">{cardDescription}</p>
               {/* Badge */}
@@ -74,6 +76,7 @@ const NeoCard = ({
               type: "auto",
               source: true,
             }}
+            className="hidden md:block"
           />
         </CardContent>
       </Card>

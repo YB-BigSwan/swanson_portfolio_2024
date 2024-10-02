@@ -74,5 +74,9 @@
   {
     "icon": "https://www.svgrepo.com/show/353566/cloudinary.svg",
     "name": "Cloudinary"
+  },
+  {
+    "icon": "https://cdn.worldvectorlogo.com/logos/espressif-systems.svg",
+    "name": "ESP-32"
   }
 ]

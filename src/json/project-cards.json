@@ -2,7 +2,7 @@
   {
     "cardTitle": "Satakuntalainen Osakunta Website",
     "cardSubheading": "Role: Full-stack developer, Project Manager",
-    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. The new website is needed to address various issues. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
+    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. We are using a combination of Next.js, Firebase, Google Cloud API, DirectusCMS",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
@@ -48,6 +48,14 @@
         "badgeName": "React"
       },
       {
+        "badgeIcon": "https://www.svgrepo.com/show/330398/express.svg",
+        "badgeName": "Express"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/452075/node-js.svg",
+        "badgeName": "Node"
+      },
+      {
         "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
         "badgeName": "TypeScript"
       },
@@ -58,7 +66,7 @@
     ],
     "buttonText": "Visit GitHub",
     "buttonHref": "https://github.com/YB-BigSwan/air_quality",
-    "imageSource": "Air_Quality_Control_sjyhjc",
+    "imageSource": "Air_Quality_Control_rkjh51",
     "imageAltText": "a snapshot of the Satakuntalainen Osakunta's new website"
   },
   {

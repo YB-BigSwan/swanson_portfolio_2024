@@ -12,7 +12,7 @@ const overpassMono = Overpass_Mono({
 
 const ProjectsCarousel = () => (
   <div className="w-full flex justify-center items-center">
-    <div className="w-4/5  flex flex-col justify-center items-start mb-20">
+    <div className="w-11/12 md:w-4/5  flex flex-col justify-center items-start mb-20">
       <h3 className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}>
         Projects
       </h3>

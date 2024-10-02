@@ -38,8 +38,8 @@ const ContactForm = () => {
 
   return (
     <div className="w-full flex flex-col justify-center items-center mt-10">
-      <div className="w-4/5 mb-10">
-        <div className="w-1/2">
+      <div className="w-11/12 lg:w-4/5 mb-10">
+        <div className="w-full lg:w-1/2">
           <h3
             className={`${overpassMono.className} text-4xl text-indigo-950 mb-5`}
           >
