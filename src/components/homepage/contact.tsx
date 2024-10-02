@@ -31,7 +31,7 @@ const validationSchema = Yup.object({
 });
 
 const ContactForm = () => {
-  const { toast } = useToast(); // Hook for managing toast notifications
+  const { toast } = useToast();
   const [buttonText, setButtonText] = useState("Submit");
   const [buttonDisabled, setButtonDisabled] = useState(false);
 
@@ -90,7 +90,7 @@ const ContactForm = () => {
                           toast({
                             title: "Success",
                             description:
-                              "Your report has been submitted successfully.",
+                              "Your message has been submitted successfully.",
                           });
                           resetForm();
                         } else {
@@ -212,10 +212,10 @@ const ContactForm = () => {
                       {/* Updated Submit Button */}
                       <div className="relative mb-4">
                         <div className="absolute inset-0 translate-x-1 translate-y-1 bg-black rounded-md"></div>
-                        <div className="relative border-2 border-gray-50 rounded-md">
+                        <div className="relative border-2 border-gray-50 rounded-md hover:translate-x-1 hover:translate-y-1 focus:translate-x-1 focus:translate-y-1 transition 300 ease">
                           <button
                             type="submit"
-                            className="flex justify-center items-center w-full p-2 bg-blue-300 hover:bg-indigo-100 rounded-sm text-lg font-light text-black"
+                            className="flex justify-center items-center w-full p-2 bg-blue-300 hover:bg-blue-300 rounded-sm text-lg font-light text-black"
                             disabled={buttonDisabled}
                           >
                             {buttonText}

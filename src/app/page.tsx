@@ -5,6 +5,7 @@ import ProjectsCarousel from "@/components/homepage/projects-carousel";
 import Skills from "@/components/homepage/skills";
 import ContactForm from "@/components/homepage/contact";
 import Head from "next/head";
+import { ToastProvider } from "@/components/ui/toast";
 
 export default function Home() {
   return (
@@ -47,7 +48,9 @@ export default function Home() {
           <Skills />
         </div>
         <div id="contact">
-          <ContactForm />
+          <ToastProvider>
+            <ContactForm />
+          </ToastProvider>
         </div>
       </main>
     </>
