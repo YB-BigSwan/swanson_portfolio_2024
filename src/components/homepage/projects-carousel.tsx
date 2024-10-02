@@ -1,7 +1,6 @@
 import { Overpass_Mono } from "next/font/google";
 import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 import NeoCard from "../neo-ui/neo-card";
-import Image from "next/image";
 import cardData from "../../json/project-cards.json";
 
 const overpassMono = Overpass_Mono({

@@ -16,8 +16,8 @@ import {
   DrawerClose,
   DrawerContent,
   DrawerTrigger,
-} from "@/components/ui/drawer"; // Ensure this path is correct
-import { Menu, X } from "lucide-react"; // Icons for the hamburger menu and close button
+} from "@/components/ui/drawer";
+import { Menu, X } from "lucide-react";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { Button } from "../ui/button";
 

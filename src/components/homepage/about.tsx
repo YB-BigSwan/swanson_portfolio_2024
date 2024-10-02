@@ -1,9 +1,3 @@
-import LinkedInSVG from "@/assets/linkedin.svg";
-import GitHubSVG from "@/assets/github.svg";
-import CVSVG from "@/assets/cv.svg";
-import Portrait from "@/assets/pixel-portrait.webp";
-import Image from "next/image";
-import NeoButton from "../neo-ui/neo-button";
 import { Overpass_Mono } from "next/font/google";
 
 const overpassMono = Overpass_Mono({
