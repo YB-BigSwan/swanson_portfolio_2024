@@ -5,6 +5,7 @@ import Portrait from "@/assets/pixel-portrait.webp";
 import Image from "next/image";
 import NeoButton from "../neo-ui/neo-button";
 import { Overpass_Mono } from "next/font/google";
+import Link from "next/link";
 
 const overpassMono = Overpass_Mono({
   subsets: ["latin"],
@@ -34,21 +35,43 @@ const HeroSection = () => (
 
         {/* Responsive Button Container */}
         <div className="flex flex-row flex-wrap justify-center items-center gap-2 sm:flex-row sm:justify-center md:justify-start">
-          <NeoButton
-            buttonImage={<LinkedInSVG />}
-            buttonText="LinkedIn"
-            tooltipText="Visit my LinkedIn"
-          />
-          <NeoButton
-            buttonImage={<GitHubSVG />}
-            buttonText="GitHub"
-            tooltipText="Check out my GitHub"
-          />
-          <NeoButton
-            buttonImage={<CVSVG />}
-            buttonText="Download CV"
-            tooltipText="Download my CV"
-          />
+          <Link
+            href="https://www.linkedin.com/in/stephen-swanson-h/"
+            target="_blank"
+            rel="noreferrer noopener"
+            passHref
+          >
+            <NeoButton
+              buttonImage={<LinkedInSVG />}
+              buttonText="LinkedIn"
+              tooltipText="Visit my LinkedIn"
+            />
+          </Link>
+          <Link
+            href="https://github.com/YB-BigSwan"
+            target="_blank"
+            rel="noreferrer noopener"
+            passHref
+          >
+            <NeoButton
+              buttonImage={<GitHubSVG />}
+              buttonText="GitHub"
+              tooltipText="Check out my GitHub"
+            />
+          </Link>
+          <Link
+            href="/Stephen_Swanson_CV.pdf"
+            download="Stephen_Swanson_CV.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+            passHref
+          >
+            <NeoButton
+              buttonImage={<CVSVG />}
+              buttonText="Download CV"
+              tooltipText="Download my CV"
+            />
+          </Link>
         </div>
       </div>
 

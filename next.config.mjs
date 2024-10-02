@@ -4,10 +4,23 @@ const nextConfig = {
     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: "dtt9tzpip",
   },
   webpack(config) {
-    // Add a rule to handle .svg files as React components
     config.module.rules.push({
       test: /\.svg$/,
       use: ["@svgr/webpack"],
+    });
+
+    config.module.rules.push({
+      test: /\.pdf$/,
+      use: [
+        {
+          loader: "file-loader",
+          options: {
+            name: "[name].[hash].[ext]",
+            publicPath: "/_next/static/files",
+            outputPath: "static/files",
+          },
+        },
+      ],
     });
 
     return config;

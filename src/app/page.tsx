@@ -13,7 +13,6 @@ export default function Home() {
         <meta charSet="UTF-8" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <title>Stephen Swanson</title>
         <meta name="author" content="Stephen Swanson" />
         <meta
@@ -30,7 +29,7 @@ export default function Home() {
           property="og:description"
           content="Hi! Welcome to my portfolio website! Here, you can learn about about my and check out the cool projects I've worked on"
         />
-        <meta property="og:image" content="/thumbnail" />
+        <meta property="og:image" content="/thumbnail.png" />
         <meta property="og:url" content="https://www.swansondev.me/" />
       </Head>
       <main>
