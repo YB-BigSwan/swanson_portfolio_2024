@@ -40,7 +40,7 @@ const About = () => (
                 <br />
                 <br />
                 To see more of <b className="font-bold">my work</b> check out my
-                recent <b className="font-bold">projects below</b>!
+                recent <b className="font-bold">projects below!</b>
               </p>
             </div>
           </div>
