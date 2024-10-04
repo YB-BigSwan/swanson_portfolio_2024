@@ -33,9 +33,9 @@ const NeoCard = ({
 }: cardTypes) => (
   <div className="relative flex flex-col justify-center items-start m-2">
     {/* Background shadow */}
-    <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black rounded-lg"></div>
+    <div className="absolute inset-0 translate-x-2 translate-y-2 bg-black"></div>
     {/* Actual card */}
-    <div className="relative border-2 border-black rounded-lg overflow-hidden flex-grow">
+    <div className="relative border-2 border-black overflow-hidden flex-grow">
       <Card className="bg-indigo-600">
         <CardContent className="flex flex-col md:flex-row p-0">
           {/* Text area */}

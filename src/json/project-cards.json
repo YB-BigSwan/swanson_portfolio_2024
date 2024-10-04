@@ -1,8 +1,35 @@
 [
   {
+    "cardTitle": "SatO Links",
+    "cardSubheading": "Role: Full-stack Developer",
+    "cardDescription": "A basic page to display any links the Satakuntalainen Osakunta might want to display. Authorized Members can log in to access a dashboard where they can perform CRUD operations and order the links. This project was commissioned by one of the SatO officials (virkailijat).",
+    "badges": [
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
+        "badgeName": "Next"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+        "badgeName": "TypeScript"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/373595/firebase.svg",
+        "badgeName": "Firebase"
+      },
+      {
+        "badgeIcon": "https://www.svgrepo.com/show/353805/google-cloud.svg",
+        "badgeName": "Google Cloud Platform"
+      }
+    ],
+    "buttonText": "Visit GitHub",
+    "buttonHref": "https://github.com/osakunta/sato-linkit",
+    "imageSource": "SatOlinks_kvz6rr",
+    "imageAltText": "a snapshot of the SatO Linkit website"
+  },
+  {
     "cardTitle": "Satakuntalainen Osakunta Website",
     "cardSubheading": "Role: Full-stack Developer, Project Manager",
-    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. We are using a combination of Next.js, Firebase, Google Cloud API, and DirectusCMS",
+    "cardDescription": "I am currently leading the development of a new website for the Satakuntalainen Osakunta. We are using a combination of Next.js, Firebase, Google Cloud API, and DirectusCMS.",
     "badges": [
       {
         "badgeIcon": "https://www.svgrepo.com/show/342062/next-js.svg",
