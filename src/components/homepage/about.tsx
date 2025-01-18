@@ -57,8 +57,8 @@ const About = () => (
           <div className="relative border-2 border-black">
             <div className="flex flex-col gap-2 justify-center items-start p-2 md:p-5 bg-indigo-600">
               <p className="text-lg font-light text-gray-50 p-5">
-                <b className="font-bold">Full-stack or frontend developer</b> •
-                [your company name here]
+                <b className="font-bold">Full-stack developer</b> • [your
+                company name here]
                 <br />
                 <br />
                 <b className="font-bold">Volunteer Software Developer</b>{" "}
