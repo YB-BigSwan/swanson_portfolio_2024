@@ -20,12 +20,11 @@ const About = () => (
           <div className="relative border-2 border-black">
             <div className="flex flex-col gap-2 justify-center items-center p-2 md:p-5  bg-indigo-600">
               <p className="text-lg font-light text-gray-50 p-5">
-                A frontend-focused <b className="font-bold">full-stack</b>{" "}
-                developer from Utah, United States, now living permanently in
-                Helsinki, Finland.
+                A <b className="font-bold">full-stack</b> developer from Utah,
+                United States, now living permanently in Helsinki, Finland.
                 <br />
                 <br />
-                With a major in{" "}
+                With a BBA Business IT majoring in{" "}
                 <b className="font-bold">software development</b> and a minor in{" "}
                 <b className="font-bold">UX design</b>, I&apos;m passionate
                 about building <b className="font-bold">robust</b>,{" "}
@@ -36,7 +35,7 @@ const About = () => (
                 <br />
                 In my free time I like to work on ESP32 and ESP8266 based
                 embedded and IoT projects, do design challenges, work on side
-                projects, and practice classical guitar.
+                projects, learn new technologies, and practice classical guitar.
                 <br />
                 <br />
                 To see more of <b className="font-bold">my work</b> check out my
@@ -62,7 +61,7 @@ const About = () => (
                 [your company name here]
                 <br />
                 <br />
-                <b className="font-bold">Verkkovastaava (Web admin)</b>{" "}
+                <b className="font-bold">Volunteer Software Developer</b>{" "}
                 (present) • Satakuntalainen Osakunta
                 <br />
                 <br />

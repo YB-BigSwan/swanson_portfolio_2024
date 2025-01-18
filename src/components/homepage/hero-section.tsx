@@ -26,14 +26,12 @@ const HeroSection = () => (
           Stephen Swanson
         </h1>
 
-        {/* Responsive Subheading */}
         <h2
           className={`${overpassMono.className} text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal text-indigo-950 text-center md:text-left`}
         >
-          Frontend focused full-stack developer
+          Full-stack developer
         </h2>
 
-        {/* Responsive Button Container */}
         <div className="flex flex-row flex-wrap justify-center items-center gap-2 sm:flex-row sm:justify-center md:justify-start">
           <Link
             href="https://www.linkedin.com/in/stephen-swanson-h/"
@@ -75,7 +73,6 @@ const HeroSection = () => (
         </div>
       </div>
 
-      {/* Keep the Image Container Unchanged */}
       <div className="sm:flex sm:justify-center sm:items-center sm:w-full sm:h-full lg:w-1/2 lg:h-1/2 flex-shrink-0 mb-8 md:mb-0">
         <Image
           src={Portrait}
